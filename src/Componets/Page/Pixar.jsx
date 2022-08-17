@@ -21,6 +21,7 @@ function Pixar() {
                             Director={info.Director}
                             Duracion={info.Duracion}
                             Reseña={info.Reseña}
+                            video={info.video}
                         />
                     )
                 })

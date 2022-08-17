@@ -39,6 +39,7 @@ export const ContextProvider = ({children}) => {
     }, []);
 
 
+
     return (
         <Context.Provider value={{signup, login, logout, resetPassword, user, loading }}>
             {children}

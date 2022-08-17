@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import s  from '../Css/Card.module.css';
 import Modal from '../Modal/Modal';
 
-function Card({url,titulo,año,Director,Duracion,Reseña}) {
+function Card({url,titulo,año,Director,Duracion,Reseña, video}) {
 
     const [estadoModal, setEstadoModal] = useState(false); 
 
+    
     
     function detalle () {
         setEstadoModal(true);
@@ -29,6 +30,7 @@ function Card({url,titulo,año,Director,Duracion,Reseña}) {
                 Director={Director}
                 Duracion={Duracion}
                 Reseña={Reseña}
+                video={video}
                 
             /> 
                  

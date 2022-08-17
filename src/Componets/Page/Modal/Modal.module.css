@@ -71,3 +71,10 @@
     text-decoration: underline;
     font-weight: 900;
 }
+
+.btnVideo{
+    padding: 10px;
+    background-color: rgb(4,12,67);
+    color: #fff;
+    border: none;
+}

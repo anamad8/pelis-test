@@ -5,7 +5,9 @@ import s from './Css/Marvel.module.css';
 import disney from '../../JSON/Disney.json';
 
 function Disney() {
+
   return (
+ 
     <div>
         <Navbar />
         <div className={s.alto}></div>
@@ -21,6 +23,8 @@ function Disney() {
                             Director={info.Director}
                             Duracion={info.Duracion}
                             Reseña={info.Reseña}
+                            video={info.video}
+                            
                         />
                     )
                 })

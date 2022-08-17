@@ -9,7 +9,7 @@ import Marvel from "./Componets/Page/Marvel";
 import Disney from "./Componets/Page/Disney";
 import Pixar from "./Componets/Page/Pixar";
 import StarWars from "./Componets/Page/StarWars";
-import NationalGeographicn from "./Componets/Page/NationalGeographicn"
+import NationalGeographicn from "./Componets/Page/NationalGeographicn";
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
             <Route exact path="/Pixar" element={<Pixar/>} />
             <Route exact path="/StarWars" element={<StarWars/>} />
             <Route exact path="/NationalGeographicn" element={<NationalGeographicn/>} />
-            
+          
 
           </Routes>
 

@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import s from './Modal.module.css';
-import { Link } from 'react-router-dom';
+import VerVideo from './VerVideo';
 
-function Modal({ estadoModal, setEstadoModal,titulo,Director ,año,Duracion,Reseña }) {
+
+function Modal({ estadoModal, setEstadoModal,titulo,Director ,año,Duracion,Reseña,video }) {
+
+    const [modal, setModal] = useState(false); 
+
+
+
+    function verPeli (){
+        console.log(video)
+        setModal(true)
+    }
+
+   
 
   return (
     <>
@@ -32,9 +44,18 @@ function Modal({ estadoModal, setEstadoModal,titulo,Director ,año,Duracion,Rese
                 <p className={s.reseñaP}>Reseña</p>
                 <p>{Reseña}</p>
             </div>
+            <button className={s.btnVideo} onClick={verPeli}>Ver</button>
             
-            
-            
+
+            {
+                <VerVideo
+                    modal={modal}
+                    setModal={setModal}
+                    video={video}
+                
+                />
+            }
+
           </div>
         </div>
       )}
