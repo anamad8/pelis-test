@@ -28,14 +28,17 @@ function Navbar() {
   return (
     <div className={s.navbar}>
       <div className={s.imgLogo}>
+        <Link to="/">
           <img src={imgLogo } alt="" />
+        </Link>
+          
       </div>
       <div className={s.enlaces}>
-        <Link to="/">Disney</Link>
-        <Link to="/">Pixar</Link>
-        <Link to="/">Marvel</Link>
-        <Link to="/">Star wars</Link>
-        <Link to="/">National geographic</Link>
+        <Link to="/Disney">Disney</Link>
+        <Link to="/Pixar">Pixar</Link>
+        <Link to="/Marvel">Marvel</Link>
+        <Link to="/StarWars">Star wars</Link>
+        <Link to="/NationalGeographicn">National geographic</Link>
       </div>
       <div className={s.user}>
         <p>{usuario}</p>

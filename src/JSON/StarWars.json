@@ -1,0 +1,47 @@
+[
+    {
+        "titulo": "Star Wars episodio VIII : The last jedi",
+        "año": "2017",
+        "url": "https://ruizhealytimes.com/wp-content/uploads/2017/12/star-wars-the-last-jedi.jpg",
+        "Director": "Rian Johnson",
+        "Duracion": "150 min",
+        "Reseña": "La malvada Primera Orden se ha vuelto más poderosa y tiene contra las cuerdas a la Resistencia, liderada por la General Leia Organa (Carrie Fisher). El piloto Poe Dameron (Oscar Isaac) encabeza una misión para intentar destruir un acorazado de la Primera Orden. Mientras tanto, la joven Rey (Daisy Ridley) tendrá que definir su futuro y su vocación, y el viejo jedi Luke Skywalker (Mark Hamill) revaluar el significado de su vida. "
+    },
+
+    {
+        "titulo": "Star Wars episodio IX: El ascenso de Skywalker",
+        "año": "2019",
+        "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2019/12/star-wars-episodio-ix-ascenso-skywalker_1.jpg?h=0754b17f&itok=zU00nIKz",
+        "Director": "J.J. Abrams",
+        "Duracion": "141 min",
+        "Reseña": "Un año después de los eventos de 'Los últimos Jedi', los restos de la Resistencia se enfrentarán una vez más a la Primera Orden, involucrando conflictos del pasado y del presente. Mientras tanto, el antiguo conflicto entre los Jedi y los Sith llegará a su clímax, lo que llevará a la saga de los Skywalker a un final definitivo. Final de la trilogía iniciada con 'El despertar de la Fuerza'."
+    },
+
+    {
+        "titulo": "Star Wars: el despertar de la fuerza",
+        "año": "2015",
+        "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2015/12/545416-star-wars-episodio-vii-despertar-fuerza-todos-personajes.png?itok=uAujrI9e",
+        "Director": "J.J. Abrams",
+        "Duracion": "136 min",
+        "Reseña": "Treinta años después de la victoria de la Alianza Rebelde sobre la segunda Estrella de la Muerte (hechos narrados en el Episodio VI: El retorno del Jedi), la galaxia está todavía en guerra. Una nueva República se ha constituido, pero una siniestra organización, la Primera Orden, ha resurgido de las cenizas del Imperio Galáctico. A los héroes de antaño, que luchan ahora en la Resistencia, se suman nuevos héroes: Poe Dameron, un piloto de caza, Finn, un soldado desertor de la Primera Orden, Rey, una joven chatarrera, y BB-8, un androide rodante. Todos ellos luchan contra las fuerzas del Mal: el Capitán Phasma, de la Primera Orden, y Kylo Ren, un temible y misterioso personaje que empuña un sable de luz roja. "
+    },
+
+    {
+        "titulo": "Star Wars: Skeleton Crew",
+        "año": "2022",
+        "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_280x437/public/media/image/2022/07/star-wars-skeleton-crew-cartel-2768507.jpg?h=97ffafbb&itok=9g5UeTXm",
+        "Director": "Jon Watts",
+        "Duracion": "SERIE TV",
+        "Reseña": "Se centrará en un grupo de niños perdidos en la galaxia que intentan encontrar su camino a casa en la era de la Nueva República."
+    },
+
+    {
+        "titulo": "El libro de Boba Fett",
+        "año": "2021",
+        "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_280x437/public/media/image/2021/11/libro-boba-fett-cartel-2520231.jpg?h=97ffafbb&itok=TS8z7OrN",
+        "Director": "Jon Favreau (Creador), Dave Filoni (Creador), Jon Favreau, Dave Filoni, Bryce Dallas Howard, Robert Rodriguez, Steph Green, Kevin Tancharoen",
+        "Duraccion": "SERIE TV",
+        "Reseña": "Centrado en el cazarecompensas Boba Fett y su lugarteniente Fennec Shand, que vuelven al planeta Tatooine lidiando con el inframundo galáctico para reclamar el territorio que en su día gobernó Jabba el Hutt."
+    }
+
+]

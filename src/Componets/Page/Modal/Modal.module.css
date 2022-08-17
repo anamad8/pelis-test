@@ -1,0 +1,73 @@
+.modal{
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.containerModal{
+    width: 600px;
+    min-height: 500px;
+    background: #fff;
+    position: relative;
+    bottom: 60px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnxmodal{
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    padding: 1px;
+    color: #fff;
+
+    border: none;
+    background-color: #b11b0e;
+
+    position: relative;
+    left: 270px;
+    top: 10px;
+
+    font-size: 8px;
+}
+
+
+.titulo{
+    align-items: center;
+}
+
+.duracion span{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.director span{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.año span{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.reseña{
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.reseñaP{
+    text-decoration: underline;
+    font-weight: 900;
+}
