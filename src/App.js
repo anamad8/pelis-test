@@ -8,24 +8,23 @@ import { ProtectedRoute } from "./Componets/ProtectedRoute/ProtectedRoute"
 
 function App() {
   return (
-    <ContextProvider>
+      <ContextProvider>
 
-      <Routes>
+        <Routes>
 
-        <Route path="/"
-              element={
-                <ProtectedRoute>
-                  <Home />
-                </ProtectedRoute>
-              }
-          />
-          <Route exact path="/Login" element={<Login/>} /> 
-          <Route exact path="/Registro" element={<Registro/>}/>
+          <Route path="/"
+                element={
+                  <ProtectedRoute>
+                    <Home />
+                  </ProtectedRoute>
+                }
+            />
+            <Route exact path="/Login" element={<Login/>} /> 
+            <Route exact path="/Registro" element={<Registro/>}/>
 
-        </Routes>
+          </Routes>
 
-    </ContextProvider>
-    
+      </ContextProvider>
   );
 }
 

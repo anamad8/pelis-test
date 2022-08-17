@@ -1,0 +1,44 @@
+.blanco{
+    height: 75px;
+    background-color: rgb(4,12,67);
+}
+
+.btnCategori{
+    background-color: rgb(4,12,67);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+   
+}
+.btnCategori img{
+    height: 600px;
+    /* width: 290px; */
+}
+
+.btnCategori button{
+    background-color: rgb(4,12,67);
+    border: none;
+} 
+
+.btnCategori img:hover{
+    cursor: pointer;
+    opacity: .2;
+    
+}
+
+.btnCategori p{
+    display: inline;
+}
+
+
+.frase{
+    background-color: rgb(4,12,67);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    
+    background-color: rgb(4,12,67);
+    color: #fff;
+}

@@ -1,6 +1,8 @@
 import React, { useState, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Context } from "../../Context/Context";
+import s from './Login.module.css';
+import logoLogin from '../../Img/logo-login.png';
 
 function Login() {
 
@@ -37,9 +39,12 @@ function Login() {
 
 
   return (
-    <div>
+    <div className={s.login} > 
+        <div className={s.imgLogoLogin}>
+          <img src={logoLogin} alt="logo"  />
+        </div>
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className={s.email}>
                 <label>Email</label>
                 <input
                     type="email"
@@ -48,7 +53,7 @@ function Login() {
                 />
             </div>
         
-            <div >
+            <div className={s.password}>
             <label>Contraseña</label>
             <input
                 type="password"
@@ -59,9 +64,9 @@ function Login() {
 
             {error && <p>{error}</p>}
 
-            <button>Login</button>
+            <button className={s.btnLogin}>Login</button>
         </form>
-        <p>
+        <p className={s.registro} >
         ¿No tienes cuenta?
         <Link to="/Registro">Registrarse</Link>
       </p>

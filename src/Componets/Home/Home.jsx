@@ -1,29 +1,27 @@
 import React , { useState, useContext, useEffect } from 'react';
 import { Context } from "../../Context/Context";
 import ContenrCategory from '../ContentCategory/ContenrCategory';
+import Navbar from '../Navbar/Navbar';
+import s from './Home.module.css'
+
+import disney from '../../Img/disney.png'
+import pixer from '../../Img/pixer.png'
+import marvel from '../../Img/marvel.png'
+import star from '../../Img/stawr.png'
+import national from '../../Img/national.png'
 
 import { collection, getDocs, query, where } from "firebase/firestore";
-import {db} from '../../Firebase/firebase';
+import {db} from '../../Firebase/Firebase';
 
 
 function Home() {
 
-const { logout, loading } = useContext(Context);
+const { loading } = useContext(Context);
 
 const [ category, setCategory ] = useState([])
 
 const [ peliculas, setPeliculas ] = useState([])
 
-
-// solicitar cerrer sesión
-const handleLogout = async () => {
-    try {
-      await logout();
-    } catch (error) {
-      console.error(error.message);
-    }
-     
-  };
 
 // si tarda la pagina en cerrar seción muestre "Cargando..."
 if(loading) return <h1>Cargando...</h1>
@@ -48,28 +46,32 @@ console.log(category)
 
 return (
     <div>
-        <h1>Hola</h1>
-        <button onClick={handleLogout}>Cerrar sesión</button>
+        <Navbar />
+        <div className={s.blanco}></div>
 
-        <button onClick={() => {filterMovies("Marvel")}} >
-            Marvel
-        </button>
-        <button onClick={() => {filterMovies("Disney")}} >
-            Disney
-        </button>
+        <div className={s.btnCategori}>
+          <button onClick={() => {filterMovies("Disney")}} >
+              <img src={disney} alt=""  />
+          </button>
+          <button onClick={() => {filterMovies("Pixar")}} >
+            <img src={pixer} alt=""  />
+          </button>
+          <button onClick={() => {filterMovies("Marvel")}} >
+          <img src={marvel} alt=""  />
+          </button>
+          <button onClick={() => {filterMovies("Star wars")}} >
+          <img src={star} alt=""  />
+          </button>
+          <button onClick={() => {filterMovies("National geographic")}} >
+          <img src={national} alt=""  />
+          </button>
+        </div>
+        
+        <div className={s.frase}>
+          <h1>Tus historias favoritas, todas en un mismo lugar.</h1>
+        </div>
+        
 
-        { 
-            category.length !== 0 ?  
-                <>
-                    <ContenrCategory
-                        Nombre={category.Nombre}
-                        
-                    />
-                </>
-            :
-            <p>Nada</p>
-            // category.map(nombre=>{return <ContenrCategory nombre={nombre.nombre}/>})
-          }
     </div>
   )
 }

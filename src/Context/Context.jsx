@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from "react";
 import {createUserWithEmailAndPassword,signInWithEmailAndPassword,signOut,
         onAuthStateChanged,sendPasswordResetEmail,
 } from "firebase/auth";
-import { auth } from "../Firebase/firebase";
+import { auth } from "../Firebase/Firebase";
 
 export const Context = createContext({});
 
@@ -37,8 +37,6 @@ export const ContextProvider = ({children}) => {
     return () => unsubuscribe();
     
     }, []);
-
-
 
 
     return (

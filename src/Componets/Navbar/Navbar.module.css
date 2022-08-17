@@ -1,0 +1,80 @@
+.navbar{
+    background-color: rgb(4,12,67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 3;
+    
+}
+
+.imgLogo{
+    
+   
+}
+
+
+.imgLogo img{
+    width: 15%;
+    
+}
+.enlaces {
+    /* margin-left: -500px; */
+}
+
+.enlaces a{
+    /* background-color: rgb(112, 68, 214); */
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.enlaces a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(112, 68, 214);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.user{
+    background-color: #fff;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(4,12,67);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* margin-right:-180px; */
+}
+
+.user p{
+    text-align: center;
+    text-transform:uppercase;
+}
+.user:hover{
+    background-color: rgb(112, 68, 214);
+    border-radius: 50%;
+    color: #fff;
+    
+}
+
+.imgExit img{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.imgExit img:hover{
+    background-color: rgb(112, 68, 214);
+}
+
+.imgExit button{
+    background-color:rgb(4,12,67);
+}
